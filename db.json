@@ -1,0 +1,48 @@
+{
+  "empData": [
+    {
+      "id": 1342,
+      "empName": "Krushna Patil",
+      "contactNo": 322456771,
+      "email": "krushnapatil@gmail.com",
+      "address": "5c,Western Tower, Abc street, Pune",
+      "skills": "Java, Angular, C++"
+    },
+    {
+      "id": 9854,
+      "empName": "Rohit sharma",
+      "contactNo": 9090909087,
+      "email": "rohitsharma@gmail.com",
+      "address": "12c,Western Tower, Abc street, Mumbai",
+      "skills": "Java, Angular, C++"
+    },
+    {
+      "id": 6372,
+      "empName": "Manoj Pathak",
+      "contactNo": 9812325467,
+      "email": "manojpathak@gmail.com",
+      "address": "15,BlueRidge SEZ,Abc street, Pune",
+      "skills": "Java, Angular, C++"
+    },
+    {
+      "empName": "Aditya",
+      "email": "adityapaky@gmail.com",
+      "id": "1234",
+      "contactNo": "4532156789",
+      "address": "",
+      "skills": "Angular"
+    },
+    {
+      "empName": "Sidheshwar Patne",
+      "email": "sidheshwar@gmail.com",
+      "id": "123456",
+      "contactNo": "1234567890",
+      "address": "",
+      "skills": "Angular, JS"
+    }
+  ],
+  "login": {
+    "email": "abc@gmail.com",
+    "password": "12345"
+  }
+}
