@@ -57,6 +57,7 @@ export class HomeComponent implements OnInit {
   }
   deleteEmployee(id: any){
    this.user.deleteEmpData(id).subscribe(res=>{
+    this.getEmpDetails();
       console.log(res)
     })
   }
