@@ -23,12 +23,21 @@ export class UserService {
     return this.http.get<any[]>(`${this.baseURL}/empData/${data}`)
     .pipe(tap(res => res));
   }
+
+  //Api for deleteing employee Data by Id
   deleteEmpData(id:any){
     console.log("delete function called");
-    return this.http.delete(`${this.baseURL}/empData/${id}`)
+    return this.http.delete(`${this.baseURL}/empData/${id}`).pipe(tap(res=>res));
 
   }
 
-}
+   addEmpData(data:any){
+     return this.http.post(`${this.baseURL}/empData/`,data)
+      .pipe(tap(res=>{
+        return res;
+      }));
+   }
 
+}
+          
 
