@@ -1,1 +1,28 @@
-<p>emp-details works!</p>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <form [formGroup]="empDetailsForm" class="col-md-6 col-lg-4 col-sm-12">
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="text" formControlName="name" class="form-control" id="exampleFormControlInput1" placeholder="Name" readonly >
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" formControlName="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" readonly>
+              </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Contact No</label>
+              <input type="text" formControlName="contact" class="form-control" id="exampleFormControlInput1" placeholder="Contact No" readonly>
+            </div>
+             <div class="form-group">
+              <label for="exampleFormControlTextarea1">Address</label>
+              <textarea formControlName="address" class="form-control" id="exampleFormControlTextarea1" rows="2" readonly></textarea>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Your Skills</label>
+              <textarea formControlName="skills" class="form-control" id="exampleFormControlTextarea1" rows="2" readonly></textarea>
+            </div>
+          </form>
+    </div>
+
+</div>

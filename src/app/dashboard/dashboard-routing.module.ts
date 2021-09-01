@@ -19,7 +19,7 @@ const routes: Routes = [
          component: AddUpdateEmpComponent 
        },
        {
-         path: 'emp-details',
+         path: 'emp-details/:empId',
          component: EmpDetailsComponent
        }
      ]

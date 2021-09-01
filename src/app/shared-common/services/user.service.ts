@@ -19,6 +19,16 @@ export class UserService {
     // }))
   }
 
+  getEmpDetailsById(data: any){
+    return this.http.get<any[]>(`${this.baseURL}/empData/${data}`)
+    .pipe(tap(res => res));
+  }
+  deleteEmpData(id:any){
+    console.log("delete function called");
+    return this.http.delete(`${this.baseURL}/empData/${id}`)
+
+  }
+
 }
 
 

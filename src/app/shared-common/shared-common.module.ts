@@ -5,6 +5,8 @@ import { CommonModule } from '@angular/common';
 import {CardModule} from 'primeng/card';
 import {ButtonModule} from 'primeng/button';
 import { HeaderComponent } from './header/header.component';
+import { RouterModule } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -12,9 +14,11 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
+    ReactiveFormsModule,
     CardModule,
     ButtonModule,
     HeaderComponent
